@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryLite">#bf000000</color>
+    <color name="window_background">#f1f1f1</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorControlNormal">#000000</color>
+    <color name="immersive_bars">#ff292929</color>
+
+    <color name="tab_indicator_color">#de000000</color>
+
+    <color name="textColorPrimary">#ff000000</color>
+
+    <color name="logo_border">#ededed</color>
+</resources>

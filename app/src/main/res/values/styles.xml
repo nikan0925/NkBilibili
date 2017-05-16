@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="SpUsage">
+
+    <style name="Rebase"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorControlNormal</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">@color/immersive_bars
+        </item>
+        <item name="android:windowLightStatusBar"
+            tools:targetApi="m">true
+        </item>
+    </style>
+
+    <style name="Rebase.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Widget.Rebase"
+        parent="android:Widget"/>
+
+    <style name="Widget.Rebase.MainPage"/>
+
+    <style name="Widget.Rebase.MainPage.Logo">
+        <item name="android:layout_width">@dimen/main_logo_size</item>
+        <item name="android:layout_height">@dimen/main_logo_size</item>
+    </style>
+
+    <style name="Widget.Rebase.MainPage.Title">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Rebase.MainPage.NormalTab">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+
+</resources>

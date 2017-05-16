@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NkBilibili</string>
+    <string name="rebase_name">日常</string>
+    <string name="double_click_to_exit">双击返回退出</string>
+</resources>
